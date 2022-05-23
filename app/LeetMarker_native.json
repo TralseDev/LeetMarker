@@ -1,0 +1,7 @@
+{
+    "name": "LeetMarker_native",
+    "description": "Native code for LeetMarker extension (Linux)",
+    "path": "~/.LeetMarker/app/LeetMarker_native.py",
+    "type": "stdio",
+    "allowed_extensions": ["LeetMarker@tralse.org"]
+}

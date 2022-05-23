@@ -1,0 +1,145 @@
+html, body, object, iframe,
+div, h1, h2, h3, h4, h5, h6, p,
+span, a, abbr, img,
+em, small, sub, sup,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label,
+table, caption, tbody, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-family: inherit;
+  line-height: normal;
+  vertical-align: baseline;
+  color: inherit; }
+
+body {
+  width: 200px;
+  font-family: system, 'Segoe UI', Tahoma; }
+
+a {
+  text-decoration: none; }
+
+ul {
+  list-style-type: none;
+  font-size: 12px;
+  padding: 5px 0 8px; }
+
+li {
+  padding: 5px 10px; }
+  li:hover {
+    background: rgba(43, 165, 183, 0.1); }
+    li:hover .menu__icon {
+      opacity: 1; }
+
+.menu__icon {
+  position: relative;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  top: 3px;
+  margin-right: 8px;
+  opacity: .5; }
+
+.partingline {
+  height: 1px;
+  padding: 0;
+  background: #e1e2e3;
+  margin: 5px 0; }
+
+.partingline:hover {
+  background: #e1e2e3; }
+
+#settings .menu__icon {
+  background-image: url(../../icons/tools.png);
+  background-repeat: no-repeat;
+  background-position: 0 0, 0 0;
+  background-size: unset, 100%; }
+
+#history .menu__icon {
+  background-image: url(../../icons/clock.png);
+  background-repeat: no-repeat;
+  background-position: 0 0, 0 0;
+  background-size: unset, 100%; }
+
+#help .menu__icon {
+  background-image: url(../../icons/book.png);
+  background-repeat: no-repeat;
+  background-position: 0 0, 0 0;
+  background-size: unset, 100%; }
+
+#contact .menu__icon {
+  background-image: url(../../icons/ghost.png);
+  background-repeat: no-repeat;
+  background-position: 0 0, 0 0;
+  background-size: unset, 100%; }
+
+#news .menu__icon {
+  background-image: url(../../icons/forklift.png);
+  background-repeat: no-repeat;
+  background-position: 0 0, 0 0;
+  background-size: unset, 100%; }
+
+#sync .menu__icon {
+  background-image: url(../../icons/sync2.png);
+  background-repeat: no-repeat;
+  background-position: 0 0, 0 0;
+  background-size: unset, 100%; }
+
+#export .menu__icon {
+  background-image: url(../../icons/export.png);
+  background-repeat: no-repeat;
+  background-position: 0 0, 0 0;
+  background-size: unset, 100%; }
+
+#troubleshooting .menu__icon {
+  background-image: url(../../icons/debug.png);
+  background-repeat: no-repeat;
+  background-position: 0 0, 0 0;
+  background-size: unset, 100%; }
+
+#logs .menu__icon {
+  background-image: url(../../icons/dna.png);
+  background-repeat: no-repeat;
+  background-position: 0 0, 0 0;
+  background-size: unset, 100%; }
+
+#donate .menu__icon {
+  background-image: url(../../icons/donate.png);
+  background-repeat: no-repeat;
+  background-position: 0 0, 0 0;
+  background-size: unset, 100%; }
+
+#github .menu__icon {
+  background-image: url(../../icons/github.png);
+  background-repeat: no-repeat;
+  background-position: 0 0, 0 0;
+  background-size: unset, 100%; }
+
+#activate {
+  padding-left: 22px;
+  color: #fff; }
+  #activate.menu__icon--start {
+    background-image: url(../../icons/start.png);
+    background-repeat: no-repeat;
+    background-position: 0 0, 0 0;
+    background-size: unset, 100%; }
+  #activate.menu__icon--pause {
+    background-image: url(../../icons/pause.png);
+    background-repeat: no-repeat;
+    background-position: 0 0, 0 0;
+    background-size: unset, 100%; }
+
+#donate, #github {
+  float: right; }
+
+footer {
+  background: #2ba5b7;
+  padding: 7px 6px 8px 12px; }
+  footer .menu__icon {
+    opacity: .85; }
+    footer .menu__icon:hover {
+      opacity: 1; }

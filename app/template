@@ -1,0 +1,31 @@
+# DO NOT DELETE THIS FILE! THIS FILE IS THE TEMPLATE FOR ALL OTHER FILES THAT WILL BE CREATED BY LeetMarker_native.py
+#
+# Headline: [Headline]
+#
+# Link:
+# # for full link (with URL parameter): [LINK_FULL] ; i.e.: https://google.com/search?query=some+text
+# # for only domain name: [LINK_DOMAIN] ; i.e.: google.com
+# # for full link (without URL parameter): [LINK_HREF] ; i.e.: https://google.com/search
+# # for path (without URL parameter): [LINK_PATH] ; i.e.: /search
+# # for path (with URL parameter):  [LINK_PATH_FULL] ; i.e.: /search?query=some+text
+#
+# Copied text: [text]
+#
+# Time: [time]
+# # default: %Y:%M:%d ~ %H:%m:%S
+#
+#
+# OR: type in [DEFAULT] for default values
+#
+# [DEFAULT] template looks like:
+#
+# [Headline]
+# ----------
+# 
+# Link: [LINK_FULL]
+#
+# Selected text: [text]
+#
+# Created @ [time]
+
+[DEFAULT]
