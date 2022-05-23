@@ -8,7 +8,7 @@ sed -i "s/~/${homedir}/" ./app/LeetMarker_native.json
 sed -i "s/~/${homedir}/" ./app/restore.sh
 cp ./app/LeetMarker_native.json ~/.mozilla/native-messaging-hosts/LeetMarker_native.json
 cd ../
-sudo mv ./LeetMarker ~/.LeetMarker
+mv ./LeetMarker ~/.LeetMarker
 cd ~/.LeetMarker/app
 chmod +x *.py
 chmod +x ./restore.sh
